@@ -11,6 +11,14 @@ public class AL
 		al.add(5);
 		System.out.println(al);
 		
+		Iterator itr=al.iterator();	
+		while(itr.hasNext())
+		{
+			Integer i=(Integer) itr.next();
+			System.out.println(i);
+		}
+		
+		
 		//In collection if you add the data that will be stored 
 		// in the form Object
 		
