@@ -18,6 +18,17 @@ public class AL
 			System.out.println(i);
 		}
 		
+		System.out.println("reverse");
+		
+		ListIterator litr=al.listIterator(al.size());
+		
+		while(litr.hasPrevious())
+		{
+			System.out.println(litr.previous());
+		}
+		
+		
+		
 		
 		//In collection if you add the data that will be stored 
 		// in the form Object
