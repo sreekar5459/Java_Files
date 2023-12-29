@@ -14,6 +14,8 @@ public class LAunchFileWriter
 		f.write("\n");
 		char[] ch= {'L','E','A','R','N'};
 		f.write(ch);
+		
+		f.flush();
 		f.close();
 		System.out.println("Open Test_Files");
 		
